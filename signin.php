@@ -30,7 +30,7 @@
 					
 	{
 		
-	echo "Login Failed";
+	echo "Access Not Granded";
     echo "<script>alert('<a href='reg.php'>Register</a>');</script>";	
 	echo "<script>alert('<a href='log.php'>Login</a>');</script>";
 	
