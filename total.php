@@ -42,16 +42,16 @@ $rs_vote = mysql_query($query_rs_vote, $conn) or die(mysql_error());
 $row_rs_vote = mysql_fetch_assoc($rs_vote);
 $totalRows_rs_vote = mysql_num_rows($rs_vote);
 
-$resultQuestion1 = mysql_query("SELECT * FROM poll WHERE question='joshua'");
+$resultQuestion1 = mysql_query("SELECT * FROM poll WHERE question='casper'");
 $num_rowsQuestion1 = mysql_num_rows($resultQuestion1);
 
-$resultQuestion2 = mysql_query("SELECT * FROM poll WHERE question='patterson'");
+$resultQuestion2 = mysql_query("SELECT * FROM poll WHERE question='wise'");
 $num_rowsQuestion2 = mysql_num_rows($resultQuestion2);
 
-$resultQuestion3 = mysql_query("SELECT * FROM poll WHERE question='roman'");
+$resultQuestion3 = mysql_query("SELECT * FROM poll WHERE question='mbita'");
 $num_rowsQuestion3 = mysql_num_rows($resultQuestion3);
 
-$resultQuestion4 = mysql_query("SELECT * FROM poll WHERE question='cindy'");
+$resultQuestion4 = mysql_query("SELECT * FROM poll WHERE question='matii'");
 $num_rowsQuestion4 = mysql_num_rows($resultQuestion4);
 
 $percentQuestion1 = ($num_rowsQuestion1 / $totalRows_rs_vote)*100;
