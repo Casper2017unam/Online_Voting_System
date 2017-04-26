@@ -18,7 +18,7 @@ include_once("functions.php");
 			    else
 					
 			   {
-					 echo "<script>alert('user successfully created');</script>";
+					 echo "<script>alert('user successfully created a login');</script>";
 			         
 			   }
 			   
